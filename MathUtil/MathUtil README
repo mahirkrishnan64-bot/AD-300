@@ -1,0 +1,12 @@
+# MathUtils Project
+
+This project contains a Java utility class named `MathUtils` with  methods for:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+## Files
+- `MathUtils.java` - contains the static math methods
+- `TestMathUtils.java` - tests the methods in the `main` method
+
