@@ -1,0 +1,16 @@
+# School Management System
+
+This project is a simple Java school management system that demonstrates aggregation.
+A School contains Departments, and each Department contains Teachers and Students.
+
+It shows the desired output:
+
+School: Springfield High
+Departments: Science, Mathematics
+Science Department
+- Teachers: Mr. Smith (Biology), Mrs. Jones (Chemistry)
+- Students: John Doe (Grade 10), Jane Doe (Grade 12), Jim Beam (Grade 11)
+Mathematics Department
+- Teachers: Mr. White (Calculus), Ms. Black (Algebra)
+- Students: Tim Cook (Grade 10), Ann Taylor (Grade 11), Gary Oak (Grade 12)
+
