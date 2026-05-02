@@ -1,0 +1,44 @@
+# Zoo Polymorphism Demo
+
+A Java program demonstrating polymorphism using a zoo scenario with an abstract `Animal` class and concrete subclasses (`Lion`, `Elephant`, `Monkey`).
+
+## Features
+
+- Abstract base class with method overriding and overloading
+- Polymorphism using `ArrayList<Animal>`
+- Demonstrates abstraction, inheritance, and polymorphism
+
+
+## How to Run
+
+1. Open in IntelliJ IDEA
+2. Ensure all files are in the `zoo` package
+3. Run `ZooDemo.java`
+
+## Test Cases
+
+**Normal Cases:**
+- Lion makes one sound
+- Elephant makes sound 3 times
+- Monkey makes sound 2 times
+
+**Edge Cases:**
+- `makeSound(0)` → prints "makes no sound"
+- `makeSound(-2)` → prints "makes no sound"
+- Empty animal name → handled gracefully
+
+## Sample Output
+
+```text
+Test Case 1: Lion makes one sound
+Leo says: Roar
+
+Test Case 2: Elephant makes sound 3 times
+Ella says: Trumpet
+Ella says: Trumpet
+Ella says: Trumpet
+```
+
+## Concepts
+
+Abstraction • Inheritance • Polymorphism • Method Overriding • Method Overloading
