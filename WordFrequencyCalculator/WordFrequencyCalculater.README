@@ -1,0 +1,21 @@
+# Word Frequency Counter
+
+This Java program reads text entered by the user and counts how many times each word appears using a HashMap. The output is displayed in alphabetical order using a TreeMap.
+
+## Features
+- Case-insensitive word counting
+- Ignores common punctuation
+- Supports multiple lines of input
+- Ends input when the user enters `exit`
+
+
+## Example
+Input:
+Hello world
+hello Java world
+exit
+
+Output:
+hello: 2
+java: 1
+world: 2
