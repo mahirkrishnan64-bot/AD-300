@@ -1,0 +1,31 @@
+# Shape Calculator Project
+
+This Java project uses an abstract class and inheritance to model geometric shapes. It includes `Circle`, `Rectangle`, and `Triangle` classes, each with methods to calculate area and perimeter.
+
+## Example Output
+
+```text
+Circle
+Area: 78.53981633974483
+Perimeter: 31.41592653589793
+
+Rectangle
+Area: 24.0
+Perimeter: 20.0
+
+Triangle
+Area: 6.0
+Perimeter: 12.0
+```
+
+## Test Cases
+
+### Normal Cases
+- `Circle(5)`
+- `Rectangle(4, 6)`
+- `Triangle(3, 4, 5)`
+
+### Edge Cases
+- `Circle(0)`
+- `Rectangle(0, 10)`
+- Invalid triangle values such as `Triangle(1, 2, 3)` if validation is added
