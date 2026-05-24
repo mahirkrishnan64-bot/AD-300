@@ -1,0 +1,35 @@
+# Waiting List Programs
+
+Features
+Add a person to the waiting list.
+
+Prevent duplicate names from being added.
+
+Serve the person at the front of the line.
+
+Check whether a person is already in the waiting list.
+
+Display the current number of people waiting.
+
+Show the waiting list in the order people will be served.
+
+Handle invalid input such as blank names.
+
+
+Menu Options
+When the program starts, it displays a menu with these options:
+
+Add person
+
+Serve person
+
+Check if person is in list
+
+Show waiting list size
+
+Display waiting list
+
+Exit
+
+
+
