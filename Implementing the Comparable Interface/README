@@ -1,0 +1,20 @@
+Project Features
+A Student class with the following properties:
+
+studentId (int)
+
+name (String)
+
+gpa (double)
+
+A constructor to initialize each student object.
+
+Getter methods for all fields.
+
+An implementation of Comparable<Student>.
+
+A compareTo() method that compares students by GPA.
+
+Sorting of student objects in ascending GPA order.
+
+Console output showing the sorted student list.
