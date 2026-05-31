@@ -1,0 +1,10 @@
+# Library Book Sorting in Java
+
+This project demonstrates how to sort a list of books in Java using both the `Comparable` and `Comparator` interfaces.
+
+## Features
+- Default sorting by title using `Comparable`
+- Custom sorting by author using `Comparator`
+- Custom sorting by publication year (newest first)
+- Chained sorting by author and then title
+- Console output for each sorted result
