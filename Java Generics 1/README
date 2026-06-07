@@ -1,0 +1,21 @@
+# Java Generics Assignment
+
+## Overview
+
+This project demonstrates how to implement and use generics in Java to improve type safety, code reuse, and flexibility. Java generics allow classes, interfaces, and methods to be parameterized by type, which helps the compiler catch incorrect type usage before runtime. [web:1][web:2][web:4]
+
+The program includes:
+- A generic `Box<T>` class
+- A bounded generic `NumberBox<T extends Number>` class
+- A generic `Processor<T>` interface
+- A `StringProcessor` implementation
+- Wildcard examples using `?` and `? extends Number`
+- A practical generic `Library<T>` application for managing items such as books and DVDs
+
+## Features
+
+- Store and retrieve values using a generic `Box<T>` class. [web:1][web:2]
+- Restrict accepted types with bounded type parameters in `NumberBox<T extends Number>`. [web:1][web:2]
+- Use a generic interface to process values in a type-safe way. [web:1]
+- Demonstrate wildcard usage for more flexible method parameters. [web:1]
+- Manage collections of different item types using a generic `Library<T>` class. [web:1][web:4]
