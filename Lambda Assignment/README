@@ -1,1 +1,17 @@
-Lambda assignment
+Java Lambda Expressions Assignment
+This project demonstrates the basics of lambda expressions in Java, including how they simplify code, how they work with functional interfaces, how they can be used with collections, and how they support built-in functional interfaces such as Predicate and Function. Lambda expressions were introduced in Java 8 and are commonly used to provide compact implementations of functional interfaces.
+
+Project Features
+This program includes the following tasks:
+
+Using a lambda expression with the Runnable interface to show a simple functional interface implementation.
+
+Creating a custom functional interface named MathOperation and implementing addition, subtraction, multiplication, and division with lambda expressions.
+
+Sorting a list of strings with a lambda expression and filtering a list of integers based on a condition.
+
+Using built-in functional interfaces such as Predicate and Function for common operations.
+
+Composing functions with andThen and creating a custom StringOperation functional interface for string processing.
+
+Running normal and edge test cases to demonstrate correctness
