@@ -1,1 +1,21 @@
-m
+## Project Overview
+
+The program was created for a Java assignment focused on learning the Stream API. It includes examples of intermediate operations like `filter()` and `map()`, terminal operations like `reduce()` and `collect()`, and more advanced operations such as `flatMap()` and `groupingBy()`.[web:1][web:7][web:20]
+
+The project also includes a custom `Person` class to show how streams can be used with user-defined objects, including filtering people by age and finding the oldest person in a list.[web:1][web:23]
+
+## Features
+
+This program demonstrates the following Stream API operations:
+
+- Create a stream from a list of integers.
+- Filter even numbers.
+- Map numbers to their squares.
+- Filter odd numbers and map them to their cubes.
+- Use `reduce()` to calculate the sum of all numbers.
+- Use `collect()` to gather even numbers into a new list.
+- Use `flatMap()` to flatten a list of lists.
+- Use `groupingBy()` to group numbers as even or odd.
+- Use streams with custom `Person` objects.
+- Filter people older than 25 and print their names.
+- Find the oldest person in the list.
